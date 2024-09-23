@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:ital@0;1&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Irish+Grover&display=swap');
+/* Google font URl */
+html
+{
+    font-size:15px;
+    background: whitesmoke;
+}
+/*----------------------Product---------------*/
+.title
+{
+    text-align:center;
+    font-size:4rem;
+    color:darkblue;
+    font-family: 'Irish Grover', cursive;
+    font-weight: lighter;
+}
+span{
+  color:#fa4a49;
+}
+.cake-product .inner-cake-row
+{
+   display: flex;
+   align: center;
+}
+.cake-product .inner-cake-col
+{
+
+    background:#fff;
+    height: 35rem;
+    flex:1 1 20rem;
+    padding:1.2rem;
+    margin:1.5rem;
+    border-radius:1rem;
+    box-shadow:0 .3rem .6rem #8fce00;
+    text-align: center;
+}
+
+.cake-product .inner-cake-col:hover
+{
+     transition:.5s ease;   /*it gives time of effect */
+    transform:translateY(-.5rem); /*jumping of flex*/
+}
+
+.cake-product .inner-cake-col img
+{
+    height: 25rem;
+    width:100%;
+}
+
+.cake-product .inner-cake-col h2
+{
+    padding: .5rem 0;
+    color:darkblue;
+    font-size:1.3rem;
+    letter-spacing:.1rem;
+    font-family: 'Montserrat', sans-serif;
+}
